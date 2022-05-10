@@ -41,6 +41,10 @@ compile and debug openjdk11 source code
 bash configure --with-toolchain-type=clang --with-debug-level=slowdebug --enable-dtrace --with-jvm-variants=server --with-target-bits=64 --enable-ccache --with-num-cores=8 --with-memory-size=8000 --disable-warnings-as-errors --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk --with-boot-jdk=/Users/lionel/Environment/openjdk10/jdk-10.jdk/Contents/Home
 ```
 
+`configure`成功后如下图所示
+
+![6](images/1652201412591.jpg)
+
 ### Running Make
 
 ```shell
@@ -50,10 +54,13 @@ make all
 
 我的电脑CPU配置： 2.7 GHz Intel Core i7，使用八核编译，13分钟完成。
 
-```shell
-make images
-```
-**make images** - Build the JDK image
+编译开始后电脑风扇就开始燥热起来了，CPU也都打满了。
+
+![7](images/1652202108594.jpg)
+
+`make`成功后如下图所示
+
+![7](images/1652202432077.jpg)
 
 ## 项目配置
 
@@ -73,6 +80,11 @@ make images
 ![3](images/屏幕快照%202021-01-25%20下午4.58.29.png)
 
 ## 修改源码后重新编译
+
+```shell
+make images
+```
+**make images** - Build the JDK image
 
 ```shell
 cd /Users/lionel/Environment/openjdk/11/openjdk
