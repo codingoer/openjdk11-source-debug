@@ -93,3 +93,15 @@ make images
 
 ![4](images/屏幕快照%202021-01-25%20下午5.13.16.png)
 
+## README图片在GitHub中不显示问题
+
+[查看域名IP](https://ping.eu/nslookup)
+
+查看`raw.githubusercontent.com`对应的IP地址，然后添加到hosts文件中。
+
+```shell
+185.199.109.133  raw.githubusercontent.com   
+185.199.111.133  raw.githubusercontent.com
+185.199.108.133  raw.githubusercontent.com
+185.199.110.133  raw.githubusercontent.com
+```
