@@ -6,7 +6,7 @@ compile and debug openjdk11 source code
 - [openjdk官网](http://openjdk.java.net/)
 - [openjdk11源码下载](http://jdk.java.net/java-se-ri/11)
 - [openjdkGithub](https://github.com/openjdk)
-- [清华大学openjdk镜像](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/)
+- [清华大学openjdk镜像](https://mirrors.tuna.tsinghua.edu.cn/Adoptium/)
 
 ## 下载JDK
 [openjdk官网下载](https://jdk.java.net/java-se-ri/11)
